@@ -25,7 +25,7 @@ img {
 .header {
   display: flex;
   flex-direction: column;
-  height: 542px;
+  height: 650px;
   background-image: url("../assets/images/hero.gif");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -66,7 +66,71 @@ img {
 .sign-up-square {
   display: flex;
   align-self: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 50px;
+  padding-top: 21px;
   background: white;
+  color: #332586;
   height: 380px;
-  width: 530px;
+  width: 545px;
+  margin-top: 55px;
+}
+
+.turn-miles {
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.sign-to-drive {
+  font-size: 19px;
+  margin-top: -7px;
+}
+
+.phone-number {
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+}
+
+.become-driver {
+  background-color: #ff00be;
+  color: white;
+  width: 151px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.sign-to-ride {
+  margin-left: 26px;
+  font-size: 16px;
+}
+
+.already-applied {
+  margin-top: 13px;
+  font-size: 10px;
+}
+
+.transparency {
+  padding-bottom: 149px;
+  height: 85px;
+  background: linear-gradient(rgba(255,0,0,0),#76278F);
+}
+
+.bg-banner {
+  height: 672px;
+  background: linear-gradient(#76278F, #2B1E66);
 }
