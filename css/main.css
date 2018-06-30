@@ -1,3 +1,70 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 542px;
+  background-image: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.white-logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 37px;
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.menu-items {
+  margin: 15px;
+}
+
+.log-in {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 8px;
+  max-width: 193px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.sign-up-square {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  background: white;
+  height: 380px;
+  width: 530px;
+}
