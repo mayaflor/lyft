@@ -105,6 +105,7 @@ img {
 .become-driver {
   background-color: #ff00be;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   width: 151px;
   padding-left: 15px;
   padding-right: 15px;
@@ -115,12 +116,14 @@ img {
 }
 
 .sign-to-ride {
+  color: #66848e;
   margin-left: 26px;
   font-size: 16px;
+  margin-top: 7px;
 }
 
 .already-applied {
-  margin-top: 13px;
+  margin-top: -4px;
   font-size: 10px;
 }
 
